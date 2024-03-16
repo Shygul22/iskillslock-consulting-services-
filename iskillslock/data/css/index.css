@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+    color: black;
+}
+.logobar{
+    width: auto;
+    height: 10vh;
+}
+.container{
+   background:E5E5E5;
+  
+   display: flex;
+   justify-content: space-around;
+   padding: 2%;
+}
+nav{ 
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+ul{ 
+  
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin: 0px  15px 0px 15px ;
+    display: inline-block;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+    text-decoration-color: #fca311;
+}
+.contain{
+    width: 40%;
+    height: auto;   
+}
+
+.img1{
+  
+}
+footer{
+    background-color: #fff;
+    height: 40vh;
+    padding: 20px;
+   
+}
+
+.footer_contain{  
+      display: flex;
+    justify-content: space-around;
+}/*
+h3{
+    color: #FCA311;
+    padding: 10px;
+}*/
+.containofbody{
+   /* background-image: url("https://advertiseonbing-blob.azureedge.net/blob/bingads/media/page/homepage/2023/hero-image-1440x600-2x.jpg");*/
+   background-image: url("/data/img/bg.avif");
+    width: 200vh;
+    height: 100vh;
+    background-size: cover;
+}
+.containofbody{
+  padding: 240px 60px 30px 200px ;
+  font-size: 110%;
+  
+}
+.containofbody h3{
+    color: #14213D;
+}
+.containofbody p{
+    color: #000;
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.button{
+    padding: 30px 0px 0px 0px;
+}
+.bt{
+    padding: 10px 35px;
+    background-color: #14213D;
+    font-weight: bolder;
+    color: #fff;
+}
+.bt:hover{
+    background-color: aqua;
+}
+.boxer{
+    margin: 15vh;
+}
+.head{
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #14213D;
+padding: 20px;
+}
+
+.head1{
+text-align: left;
+font-size: x-large;
+font-weight: bolder;
+color: #14213D;
+padding: 15px;
+}
+
+.head2{
+text-align: right;
+font-size: x-large;
+font-weight: bolder;
+color: #14213D;
+padding: 15px;
+}
+.img1{
+    width: 20%;
+    height: 40%;
+    object-fit: cover;
+}
+.p1{
+    text-align: center;
+    line-height:25px ;
+    color: #121212;
+    padding: 25px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+.img2{
+    width: 40%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.gallerybox{ 
+    display: flex;
+  flex-wrap: nowrap;
+
+}
+.gallery {
+    width: 30%;
+   padding: 0px 0px 0px 90px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .desc1 {
+    
+    text-align: left;
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 10px;
+  }
+  .desc1:hover{
+    text-decoration: underline;
+}
+.img3{
+    width: 240px;
+    height: 60px;
+}
+.a1{
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 10px;
+}
+.a1:hover{
+    text-decoration: underline;
+}
