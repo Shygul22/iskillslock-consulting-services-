@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+    color: black;
+}
+
+.logobar {
+    width: auto;
+    height: 10vh;
+}
+
+.container {
+    background: #E5E5E5;
+    padding: 2%;
+}
+
+nav {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #fca311;
+}
+
+.contain {
+    width: 90%;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer_contain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containofbody {
+    background-image: url("/data/img/bg.avif");
+    background-size: cover;
+    padding: 100px 10px;
+    font-size: 90%;
+}
+
+.containofbody h3 {
+    color: #14213D;
+}
+
+.containofbody p {
+    color: #000;
+    font-weight: bold;
+}
+
+.button {
+    padding: 30px 0 0;
+    text-align: center;
+}
+
+.bt {
+    padding: 10px 25px;
+    background-color: #14213D;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.bt:hover {
+    background-color: aqua;
+}
+
+.boxer {
+    margin: 10vh 0;
+}
+
+.head,
+.head1,
+.head2 {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #14213D;
+    padding: 15px 0;
+}
+
+.p1 {
+    text-align: center;
+    line-height: 1.5;
+    color: #121212;
+    padding: 15px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1,
+.img2 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallerybox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery {
+    width: 90%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc,
+.desc1,
+.a1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.desc1:hover,
+.a1:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    .contain {
+        width: 60%;
+    }
+    .gallery {
+        padding: 0;
+    }
+    .desc {
+        text-align: left;
+    }
+    .a1 {
+        text-align: left;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    .contain {
+        width: 90%;
+    }
+    .head,
+    .head1,
+    .head2 {
+        text-align: center;
+    }
+}
