@@ -10,7 +10,9 @@
 }
 
 @media (min-width:1025px){
-
+*{
+    text-decoration: none;
+}
 .logobar{
     width: auto;
     height: 10vh;
@@ -54,17 +56,14 @@ footer{
     background-color: #fff;
     height: 40vh;
     padding: 20px;
-   
+    text-decoration: none;
+    text-decoration-thickness:0px;
 }
 
 .footer_contain{  
       display: flex;
-    justify-content: space;
-}/*
-h3{
-    color: #FCA311;
-    padding: 10px;
-}*/
+    justify-content: space-between;
+}
 .containofbody{
    /* background-image: url("https://advertiseonbing-blob.azureedge.net/blob/bingads/media/page/homepage/2023/hero-image-1440x600-2x.jpg");*/
    background-image: url("/data/img/bg.avif");
@@ -181,13 +180,25 @@ padding: 15px;
 .a1{
     text-align: left;
     font-size: 100%;
-    font-weight: bold;
     padding: 10px;
+    text-decoration: none;
+    text-decoration-thickness:0px;
+    color: #000;
+}
 }
 .a1:hover{
     text-decoration: underline;
 }  
 }
+/*
+
+
+
+
+
+
+
+*/
 /* Mobile Navigation */
 
 @media (max-width: 767px) {
@@ -334,6 +345,9 @@ footer {
 .a1 {
     text-align: center;
     padding: 10px 0;
+    text-decoration: none;
+    text-decoration-thickness:0px;
+    color: #000;
 }
 
 .desc1:hover,

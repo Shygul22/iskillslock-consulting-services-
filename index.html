@@ -3,157 +3,425 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iskillslock</title>
-    <link rel="shortcut icon" href="https://pps.whatsapp.net/v/t61.24694-24/428127074_1060034308413150_6541705466892334240_n.jpg?ccb=11-4&oh=01_AdQ6ZKlWD9aTuYSjtqWjH7ijFz6VpwdBCYmourOj_aEgjw&oe=65F92D61&_nc_sid=e6ed6c&_nc_cat=105" type="image/x-icon">
-    <link rel="stylesheet" href="/data/css/index.css">
+    <title>IskillsLock</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+
 </head>
 <body>
-    <section class="logobar">
-        <div class="navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <h2>IskillsLock</h2>
-                </a>
-                <div class="mobile-menu">
-                    <button class="menu-toggle" aria-label="Toggle navigation">
-                        <span class="hamburger"></span>
-                    </button>
-                    <nav class="mobile-nav">
-                        <ul>
-                            <li><a href="#about">About us</a></li>
-                            <li><a href="#">Iskillslock products</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="#">Investor</a></li>
-                        </ul>
-                    </nav>
+    <header>
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="data/img/logo.svg" class="h-12" alt=" Logo">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+       <a href="#about"> <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></a>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a  class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" href="#about">About</a>
+        </li>
+        <li>
+            <a  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" href="#service">Service</a>
+          </li>
+        <li>
+          <a  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+   <div class="pt-16">
+    <section class="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
+            <a href="#" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
+                <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span class="text-sm font-medium">Jumbotron component was launched! See what's new</span> 
+                <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+            </a>
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl dark:text-white"> Explore the vast potential within yourself with our help. </h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Partner with us to unleash your full potential and achieve unprecedented success. Our collaborative approach and expert guidance are tailored to help you excel. Don't miss the opportunity to transform your capabilities into outstanding achievements with us by your side.</p>
+            <form class="w-full max-w-md mx-auto">   
+                <label for="default-email" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Subscribe</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 rtl:inset-x-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                            <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                            <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                        </svg>
+                    </div>
+                    <input type="email" id="default-email" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email here..." required />
+                    <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</button>
                 </div>
+            </form>
+            <div class="pt-6" >  <a href="#about">
+                <button type="button"  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none  focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Get started 
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                    </button></a>
+            </div>
+        </div>
+        <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"></div>
+        
+    </section>
+   </div>
+    </header>
+    <section class="bg-white dark:bg-gray-900" id="about">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"  >iskillslock</h2>
+                <p class="mb-4">Welcome to iSkillsLock, where innovation meets excellence. Founded with a vision to redefine industry standards, we are committed to delivering exceptional solutions tailored to your needs. With a team of dedicated professionals, we strive to exceed expectations and drive positive change. At iSkillsLock, we believe in harnessing the power of creativity and technology to shape a brighter future. Join us on this journey as we pave the way for success, one milestone at a time.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="./data/img/soul.jpg" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="./data/img/ab.jpg" alt="office content 2">
             </div>
         </div>
     </section>
-    
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const menuToggle = document.querySelector('.menu-toggle');
-        const mobileNav = document.querySelector('.mobile-nav');
-    
-        if (menuToggle && mobileNav) {
-            menuToggle.addEventListener('click', function() {
-                mobileNav.classList.toggle('open');
-            });
-        }
-    });
-    </script>
-    
     <section>
-            <div class="containofbody">
-                <div class="text">
-                    <h3>Empower Your Personal Mindset, <br> Launch Your  Business from Scratch – Partner with Us</h3> <br>
-                    <p>Transform your personal mindset for success & <br> seamlessly transition into entrepreneurship with our expert guidance</p>
-                </div>
-                <div class="button">
-                    <a href="bt" class="bt"> Get ready now</a>
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+                <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">We are accredited by</h2>
+                <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                    <a href="#" class="flex justify-center items-center">
+                         
+                        <img src="./data/img/logo.svg" alt="iskillslock" >                      
+                         
+                    </a>
+                   
                 </div>
             </div>
+        </section>
     </section>
-    <section id="about">
-        <!--
-<p><strong>Mindset Transformation:</strong> Our focus is on empowering individuals to undergo a profound mindset shift.</p>
-<p><strong>Personalized Support:</strong> We provide tailored guidance and support to each client.</p>
-<p><strong>From Zero to Business Launch:</strong> We specialize in helping individuals transition from personal growth to entrepreneurship.</p>
-<p><strong>Holistic Approach:</strong> Our services address both personal and professional development.</p>
-<p><strong>Experienced Team:</strong> Our team consists of experienced coaches and mentors.</p>
-<p><strong>Comprehensive Services:</strong> We offer a wide range of services, including mindset workshops and business planning.</p>
-<p><strong>Belief in Unlimited Potential:</strong> We firmly believe that with the right mindset, anything is possible.</p>
-<p><strong>Transformative Journey:</strong> Join us and embark on a transformative journey towards personal and professional fulfillment.</p>
--->
-<div class="boxer">
-  <div class="head"> About us </div>
-    <div class="box1">
-        <img src="/data/img/sm logo.jpg" alt="IskillsLock logo" class="img1">
-        <p class="p1" >At iSkillsLock, we understand the power of personal mindset transformation and <br> its pivotal role in entrepreneurial success. Founded on the belief that anyone can achieve their business dreams with the right mindset and support,  we are dedicated to guiding individuals from all backgrounds on their journey from personal growth to business launch.</p>
+    <section class="bg-white dark:bg-gray-900" >
+        
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl" id="service">Services</h2>
+
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Grapic Design</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Where creativity meets communication, transforming ideas into visually captivating masterpieces that leave a lasting impression.</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Web Development</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Crafting digital experiences that seamlessly merge innovation and functionality, driving online presence and user engagement to new heights.</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>                    
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Social Media Management</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Nurturing online communities, amplifying brand voices, and fostering meaningful connections through strategic content and engagement strategies.</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Online Course</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Empowering learners worldwide with accessible knowledge and expertise, offering flexible learning experiences tailored to individual goals and aspirations.</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Small Business Management</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Balancing operations, finances, and growth strategies to optimize efficiency and drive sustainable success in a competitive marketplace.</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">ui/ux Design</h3>
+                    <p class="text-gray-500 dark:text-gray-400">UI/UX Design: Crafting intuitive interfaces and delightful user experiences, marrying aesthetic appeal with seamless functionality to elevate digital interactions effortlessly.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section>
+
+        <section class="bg-white dark:bg-gray-900">
+            <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">Power of Strength</h2>
+
+  <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+      <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">15+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">Employee</dd>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">25+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">Happy Clients</dd>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">24/7</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">Support</dd>
+          </div>
+      </dl>
+  </div>
+</section></section>
+      <section>
+        <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');</style>
+<div class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
+    <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+        <div class="w-full max-w-6xl mx-auto">
+            <div class="text-center max-w-xl mx-auto">
+                <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br>are saying.</h1>
+                <div class="text-center mb-10">
+                    <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    <span class="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                </div>
+            </div>
+            <div class="-mx-3 md:flex items-start">
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Rajan</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>They were quick and efficient and their work was very good.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Ramesh</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>They respond so quickly to thoughts and always try to do the best they can.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div class="boxer">
-  <div class="head1">Our mission is simple</div>
-    <div class="box1">
-        <p class="p1"> To empower individuals to overcome mental barriers, cultivate resilience, and unlock their full potential. We recognize that embarking on the path to entrepreneurship can be daunting, especially for those starting from ground zero. That's why we offer a holistic approach that combines mindset coaching, practical skills development, and personalized mentorship to ensure our clients have the tools they need to thrive.</p>
-        <img src="/data/img/ab.jpg" alt="IskillsLock " class="img2">
-    </div>
-</div> 
-<div class="boxer">
-    <div class="head2">Solutions for better</div>
-      <div class="box1">
-          <img src="/data/img/soul.jpg" alt="IskillsLock " class="img2">
-          <From class="p1">Whether you're a seasoned professional looking to make a career transition or a budding entrepreneur with a big idea and zero experience, we're here to help you every step of the way. Our team of experienced coaches and mentors brings a wealth of knowledge and expertise across various industries, providing tailored guidance to suit your unique goals and aspirations. From mindset workshops and one-on-one coaching sessions to business planning and strategy development, we offer a comprehensive suite of services designed to set you up for success. We believe that with the right mindset, anything is possible – and we're committed to helping you turn your dreams into reality.</p>
+
+
+      </section>
+     
+<section>
+    <section class="bg-white dark:bg-gray-900" id="blog">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Blog</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p>
+            </div> 
+            <div class="grid gap-8 lg:grid-cols-2">
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
+                            Tutorial
+                        </span>
+                        <span class="text-sm">14 days ago</span>
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">How to quickly deploy a static website</a></h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-4">
+                            <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
+                            <span class="font-medium dark:text-white">
+                                Jese Leos
+                            </span>
+                        </div>
+                        <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                            Read more
+                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </article> 
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                            Article
+                        </span>
+                        <span class="text-sm">14 days ago</span>
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Our first project with React</a></h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-4">
+                            <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Green avatar" />
+                            <span class="font-medium dark:text-white">
+                                Bonnie Green
+                            </span>
+                        </div>
+                        <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                            Read more
+                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </article>                  
+            </div>  
         </div>
-  </div> 
-<p class="p1">Join us at iSkillsLock and embark on a transformative journey towards personal and professional fulfillment. Together, let's rewrite the narrative of what's possible and build a future where success knows no bounds.</p>
-    </section>
-    <section>
-        <div class="head">Resources to help unlock your potential</div>
-        <div class="gallerybox">
-            <div class="gallery">
-                <a target="_blank" href="img_5terre.jpg">
-                <img src="/data/img/ab.jpg" alt="" width="600" height="400">
-                </a>
-                <div class="desc"><a href="#" class="">Webcasts & videos</a></div></div>
-            <div class="gallery">
-                <a target="_blank" href="img_5terre.jpg">
-                <img src="/data/img/ab.jpg" alt="" width="600" height="400">
-                </a>
-                <div class="desc"><a href="#" class="desc">Success stories</a></div>
-            </div>
-            <div class="gallery">
-                <a target="_blank" href="img_5terre.jpg">
-                <img src="/data/img/ab.jpg" alt="" width="600" height="400">
-                </a>
-                <div class="desc"><a href="#" class="desc">Training & certification</a></div>
-            </div>
-        </div> 
-    </section>
-    <section id="blog">
-        <div class="head">Recent blog post</div>
-        <div class="gallerybox">
-            <div class="gallery">
-                <a target="_blank" href="img_5terre.jpg">
-                <img src="/data/img/ab.jpg" alt="" width="600" height="400">
-                </a>
-                <div class="desc1"><a href="#" class="">Webcasts & videos</a></div>
-                <div class="desc2">Transform your personal mindset for success &
-                    seamlessly transition into entrepreneurship with our expert guidance
+      </section>
+</section>
+<!-- component -->
+
+<div class="my-6">
+            <div class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
+                <div>
+                    <h1 class="text-3xl font-extrabold" id="contact">Let's Talk</h1>
+                    <p class="text-sm text-gray-400 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
+                    <div class="mt-12"><br>
+                        <h2 class="text-lg font-extrabold">Email</h2>
+                        <ul class="mt-3">
+                            <li class="flex items-center">
+                                <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                                        viewBox="0 0 479.058 479.058">
+                                        <path
+                                            d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                                            data-original="#000000" />
+                                    </svg>
+                                </div><br><br> 
+                                <a target="blank" href="mailto:iskillslock@gmail.com" class="text-[#007bff] text-sm ml-3">
+                                    <small class="block">Mail</small> 
+                                    <strong>iskillslock@gmail.com</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                   
                 </div>
+              
+                <form class="ml-auo space-y-4">
+                    <input type='text' placeholder='Name'
+                        class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
+                    <input type='email' placeholder='Email'
+                        class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
+                    <input type='text' placeholder='Subject'
+                        class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
+                    <textarea placeholder='Message' rows="6"
+                        class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"></textarea>
+                    <button type='button'
+                        class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]">Send</button>
+                </form>
             </div>
-           
-        </div> 
-    </section><br><hr><br>
-    <footer>
-        <div class="footer_contain">
-            <div class="iskillslock_logo">
-                <h3><img src="/data/img/sm logo.jpg" alt="" class="img2"></h3>
+        </div> <hr>
+   <!-- component -->
+<footer class="bg-white" aria-labelledby="footer-heading">
+    <h2 id="footer-heading" class="sr-only">Footer</h2>
+    <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+       
+        <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Grapic Design</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Webiste Development</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Social Media Management</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Online Course</a>
+                </li>
+                <li>
+                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Small Business Management</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">ui/ux Design</a>
+                  </li>
+              </ul>
             </div>
-            <div class="iskillslock_prodoucts">
-               
-                
+            <!--
+            <div class="mt-10 md:mt-0">
+              <h3 class="text-sm font-semibold leading-6 text-gray-900">Support</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Pricing</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Documentation</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Guides</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">API Status</a>
+                </li>
+              </ul>
+            </div> -->
+          </div>
+          <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#about" class="text-sm leading-6 text-gray-600 hover:text-gray-900">About</a>
+                </li>
+                <li>
+                  <a href="#blog" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Blog</a>
+                </li>
+                <li>
+                  <a href="#contact" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Contact</a>
+                </li>
+                <li>
+                  <a href="#service" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Service</a>
+                </li>
+              
+              </ul>
             </div>
-            <div class="link">
-                <h3>LINK</h3><br><br>
-                <a href="#"  class="a1">About us</a> <br><br>
-                <a href="#"  class="a1">Iskillslock <br> products</a> <br><br>
-                <a href="#" class="a1">Blog</a> <br><br>
-                <a href="#" class="a1">Investor</a> <br><br>
+            <div class="mt-10 md:mt-0">
+              <h3 class="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Privacy</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Terms</a>
+                </li>
+              </ul>
             </div>
-            <div class="resourse">
-                <h3>RESOURCES</h3><br><br>
-                <a href="#" class="a1">Webcasts & videos</a> <br><br>
-                <a href="#" class="a1">Success stories</a> <br><br>
-                <a href="#" class="a1">Training & certification</a> <br>
-            </div>
-            <div class="follow">
-                <h3>FOLLOW</h3><br><br>
-                <a href="https://www.instagram.com/iskillslock" class="a1">Instagram</a> <br><br>
-                <a href="https://www.youtube.com/@iskillslock" class="a1">Youtube</a> <br>
-            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+      <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+        <p class="text-xs leading-5 text-gray-500">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 </html>
