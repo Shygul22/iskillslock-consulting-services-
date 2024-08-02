@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Example</title>
+    <style>
+        #notificationButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="notificationButton">Show Notification</button>
+
+    <script>
+        document.getElementById('notificationButton').addEventListener('click', function() {
+            if ('Notification' in window && 'actions' in Notification.prototype) {
+                Notification.requestPermission().then(function(permission) {
+                    if (permission === 'granted') {
+                        const notification = new Notification('Task Reminder', {
+                            body: 'You have a task to complete!',
+                            icon: 'icon.png', // Optional: Add a path to an icon here
+                            actions: [
+                                { action: 'complete', title: 'Mark as Complete' },
+                                { action: 'incomplete', title: 'Mark as Incomplete' }
+                            ]
+                        });
+
+                        notification.addEventListener('action', function(event) {
+                            if (event.action === 'complete') {
+                                alert('Task marked as Complete!');
+                            } else if (event.action === 'incomplete') {
+                                alert('Task marked as Incomplete!');
+                            }
+                        });
+                    } else {
+                        alert('Notification permission denied');
+                    }
+                });
+            } else {
+                alert('Your browser does not support notifications with actions');
+            }
+        });
+    </script>
+</body>
+</html>
